@@ -5,8 +5,8 @@ import plotly.express as px
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="EOQ Optimization for Smartphone Components",
-    page_icon="📱",
+    page_title="EOQ untuk Botol Minuman",
+    page_icon="🧴",
     layout="centered",
     initial_sidebar_state="expanded"
 )
@@ -75,11 +75,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Title and Introduction ---
-st.title("📱 EOQ Optimization for Smartphone Components")
-st.markdown("### *Meningkatkan Efisiensi Persediaan Layar LCD*")
+st.title("🧴 EOQ untuk Botol Minuman")
+st.markdown("### *komponen, seperti botol plastik kosong*")
 st.write("""
 Selamat datang di aplikasi simulasi Economic Order Quantity (EOQ)!
-Aplikasi ini membantu Anda mengoptimalkan jumlah pemesanan komponen, seperti layar LCD,
+Aplikasi ini membantu Anda mengoptimalkan jumlah pemesanan komponen, seperti botol plastik,
 untuk menekan biaya persediaan tahunan Anda. Mari kita mulai!
 """)
 
