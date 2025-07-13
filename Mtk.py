@@ -5,7 +5,7 @@ import plotly.express as px
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="EOQ untuk Botol Minuman",
+    page_title="EOQ untuk Minuman Kemasan",
     page_icon="🧃",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -75,11 +75,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Title and Introduction ---
-st.title("🧃 EOQ untuk Botol Minuman")
+st.title("🧃 EOQ untuk Minuman Kemasan")
 st.markdown("### *komponen, seperti botol plastik kosong*")
 st.write("""
 Selamat datang di aplikasi simulasi Economic Order Quantity (EOQ)!
-Aplikasi ini membantu Anda mengoptimalkan jumlah pemesanan komponen, seperti botol plastik,
+Aplikasi ini membantu Anda mengoptimalkan jumlah pemesanan komponen, seperti minuman kemasan,
 untuk menekan biaya persediaan tahunan Anda. Mari kita mulai!
 """)
 
