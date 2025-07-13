@@ -200,7 +200,7 @@ with tab3:
             st.markdown("### Rekomendasi:")
             st.write(f"""
             Berdasarkan perhitungan EOQ, perusahaan disarankan untuk memesan sekitar
-            **{eoq_rounded:,.0f} unit** layar LCD setiap kali melakukan pesanan.
+            **{eoq_rounded:,.0f} unit** minuman kemasan setiap kali melakukan pesanan.
             Ini akan menghasilkan sekitar **{orders_per_year_rounded} kali** pemesanan dalam setahun.
             Dengan mengikuti rekomendasi ini, biaya persediaan total tahunan Anda dapat diminimalkan menjadi
             sekitar **Rp {total_inventory_cost:,.0f}**.
