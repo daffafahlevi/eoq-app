@@ -6,7 +6,7 @@ import plotly.express as px
 # --- Page Configuration ---
 st.set_page_config(
     page_title="EOQ untuk Botol Minuman",
-    page_icon="🧴",
+    page_icon="🧃",
     layout="centered",
     initial_sidebar_state="expanded"
 )
@@ -75,7 +75,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Title and Introduction ---
-st.title("🧴 EOQ untuk Botol Minuman")
+st.title("🧃 EOQ untuk Botol Minuman")
 st.markdown("### *komponen, seperti botol plastik kosong*")
 st.write("""
 Selamat datang di aplikasi simulasi Economic Order Quantity (EOQ)!
